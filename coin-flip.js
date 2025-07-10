@@ -15,7 +15,7 @@ function checking(){
   let coinResult = game();
   let guessResult = guess === 0 ? 'Heads' : 'Tails'
   
-  let message = `Coin: ${coinResult} | Your guess ${guessResult} <br>`;
+  let message = `Coin: ${coinResult} | Your guess: ${guessResult} <br>`;
     if(coinResult === guessResult){
     message += 'You wonned'
   }else{
